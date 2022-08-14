@@ -1,6 +1,22 @@
 <h2 align="center" style="color: red;">MOHAA project to migrate own CMS (programmed in PHP 5) to laravel 9</h2>
 
 
+My Models: 
+
+Users:
+    atributes:
+        id: int
+        login: string
+        password: string
+        email: string
+        email_verified_at: timestamp
+        info: string
+        website: string
+        type_id: integer
+        timestamps: 
+        
+
+
 <p>
 Tasks:
   attributes:
