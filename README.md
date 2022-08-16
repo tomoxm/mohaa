@@ -2,7 +2,7 @@
 
 
 My Models: 
-
+<br><pre>
 Users:
     atributes:
         id: int
@@ -38,3 +38,4 @@ Tag:
   relationships:
     tasks: BelongsToMany
 </p>
+</pre>
