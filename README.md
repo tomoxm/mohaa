@@ -8,16 +8,19 @@ Users:
         id: int
         login: string
         password: string
-        email: string
-        email_verified_at: timestamp
+        email: string (unique)
+        email_verified_at: timestamp (nullable)
         info: string
         website: string
-        type_id: integer
-        timestamps: 
+        type_id: integer (unsigned)
+        timestamps:
+   relationships:
         
-
-
-<p>
+        
+        
+        
+        
+-------from tutorial: -----------------------
 Tasks:
   attributes:
     id: int
@@ -37,5 +40,4 @@ Tag:
     name: string
   relationships:
     tasks: BelongsToMany
-</p>
 </pre>
